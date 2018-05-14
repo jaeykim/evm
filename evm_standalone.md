@@ -47,7 +47,6 @@ Addition.bin-runtime
 $ solc --hashes add.sol
 ======= Addition =======
 Function signatures: 
-6d4ce63c: get()
 a5f3c23b: add(int256,int256)
 ```
 
