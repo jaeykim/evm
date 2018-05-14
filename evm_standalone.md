@@ -32,9 +32,10 @@ contract Addition{
 ```
 
 ## Compile the Solidity file
-- --bun-runtime:
-- --overwrite: Overwrite the output file
-- --optimization: Appliy optimization
+`--bin-runtime`: we get the code as it would be in the contract after having been deployed - we can test that with the evm tool.  
+`--overwrite`: Overwrite the output file.  
+`--optimization`: Enable bytecode optimizer.  
+`-o [ --output-dir ] path`: If given, creates one file per component and contract/file at the specified directory.  
 ```
 solc --bin-runtime --overwrite --optimize -o . add.sol
 ======= Output file =======
