@@ -190,7 +190,11 @@ Storage:
 ```
 
 # Conclusion
-
 That concludes this introductory guide to the Ethereum Virtual Machine standalone.
 I wrote this document so that I can evaluate the performance of the EVM and compare it with other compilers or Virtual Machines.
 The experimental scripts and results will be uploaded later.
+
+# Reference
+[1] https://geth.ethereum.org/install/  
+[2] http://solidity.readthedocs.io/en/v0.4.21/installing-solidity.html  
+[3] https://github.com/CoinCulture/evm-tools/blob/master/analysis/guide.md
