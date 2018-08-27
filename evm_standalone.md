@@ -12,7 +12,8 @@ sudo add-apt-repository -y ppa:ethereum/ethereum
 ```
 After that you can install the stable version of Go Ethereum:
 ```
-sudo apt-get update sudoapt-get install ethereum
+sudo apt-get update   
+sudo apt-get install ethereum
 ```
 ### Install Solidity Compiler
 ```
