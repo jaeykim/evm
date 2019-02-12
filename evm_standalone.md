@@ -6,7 +6,7 @@ This is the guide to execute EVM standalone without using go-ethereum client.
 First of all, install some environments to run the EVM standalone.
 
 ### Install geth(go-ethereum) client on Ubuntu via PPAs
-To enable our launchpadrepository please run:
+To enable Ethereum repository please run:
 ```
 sudo add-apt-repository -y ppa:ethereum/ethereum
 ```
